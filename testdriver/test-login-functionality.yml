@@ -1,0 +1,84 @@
+version: 4.0.69
+steps:
+  - prompt: Focus the browser window.
+    commands: []
+  - prompt: Click on "Login" in the header.
+    commands:
+      - command: hover-text
+        text: LOGIN
+        description: login link in the header
+        action: click
+  - prompt: Enter test credentials in the login form.
+    commands:
+      - command: hover-text
+        text: Email address
+        description: email input field
+        action: click
+      - command: type
+        text: test@example.com
+      - command: hover-text
+        text: Password
+        description: password input field
+        action: click
+      - command: type
+        text: password123
+  - prompt: Click the "Login" button.
+    commands:
+      - command: hover-text
+        text: LOG IN
+        description: login button
+        action: click
+  - prompt: Click the "Login" button.
+    commands:
+      - command: hover-text
+        text: LOG IN
+        description: login button
+        action: click
+  - prompt: Click the "Login" button.
+    commands:
+      - command: hover-text
+        text: LOG IN
+        description: login button
+        action: click
+  - prompt: Click the "Login" button.
+    commands:
+      - command: hover-text
+        text: LOG IN
+        description: login button
+        action: click
+  - prompt: Click the "Login" button.
+    commands:
+      - command: hover-text
+        text: LOG IN
+        description: login button
+        action: click
+  - prompt: Click the "Login" button.
+    commands:
+      - command: hover-text
+        text: LOG IN
+        description: login button
+        action: click
+  - prompt: Click the "Login" button.
+    commands:
+      - command: hover-text
+        text: LOG IN
+        description: login button
+        action: click
+  - prompt: Click the "Login" button.
+    commands:
+      - command: hover-text
+        text: LOG IN
+        description: login button
+        action: click
+  - prompt: Click the "Login" button.
+    commands:
+      - command: hover-text
+        text: LOG IN
+        description: login button
+        action: click
+  - prompt: Click the "Login" button.
+    commands:
+      - command: hover-text
+        text: LOG IN
+        description: login button
+        action: click
