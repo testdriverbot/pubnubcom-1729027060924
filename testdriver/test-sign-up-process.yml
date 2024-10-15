@@ -1,0 +1,278 @@
+version: 4.0.69
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Click on the "Try for free" button.
+    commands:
+      - command: hover-text
+        text: Try for free
+        description: button in the header
+        action: click
+  - prompt: Click on the "Try for free" button.
+    commands:
+      - command: hover-text
+        text: Try for free
+        description: button in the header
+        action: click
+  - prompt: Fill in the sign-up form with test data.
+    commands:
+      - command: hover-text
+        text: First name
+        description: first name input field
+        action: click
+      - command: type
+        text: Test
+      - command: hover-text
+        text: Last name
+        description: last name input field
+        action: click
+      - command: type
+        text: User
+      - command: hover-text
+        text: Email
+        description: email input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Password
+        description: password input field
+        action: click
+      - command: type
+        text: TestPassword123
+  - prompt: Fill in the sign-up form with test data.
+    commands:
+      - command: hover-text
+        text: First name
+        description: first name input field
+        action: click
+      - command: type
+        text: Test
+      - command: hover-text
+        text: Last name
+        description: last name input field
+        action: click
+      - command: type
+        text: User
+      - command: hover-text
+        text: Email
+        description: email input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Password
+        description: password input field
+        action: click
+      - command: type
+        text: Password123
+  - prompt: Fill in the sign-up form with test data.
+    commands:
+      - command: hover-text
+        text: First name
+        description: first name input field
+        action: click
+      - command: type
+        text: Test
+      - command: hover-text
+        text: Last name
+        description: last name input field
+        action: click
+      - command: type
+        text: User
+      - command: hover-text
+        text: Email
+        description: email input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Password
+        description: password input field
+        action: click
+      - command: type
+        text: Password123
+  - prompt: Fill in the sign-up form with test data.
+    commands:
+      - command: hover-text
+        text: First name
+        description: first name input field
+        action: click
+      - command: type
+        text: Test
+      - command: hover-text
+        text: Last name
+        description: last name input field
+        action: click
+      - command: type
+        text: User
+      - command: hover-text
+        text: Email
+        description: email input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Password
+        description: password input field
+        action: click
+      - command: type
+        text: Password123
+  - prompt: Fill in the sign-up form with test data.
+    commands:
+      - command: hover-text
+        text: First name
+        description: first name input field
+        action: click
+      - command: type
+        text: Test
+      - command: hover-text
+        text: Last name
+        description: last name input field
+        action: click
+      - command: type
+        text: User
+      - command: hover-text
+        text: Email
+        description: email input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Password
+        description: password input field
+        action: click
+      - command: type
+        text: Password123
+  - prompt: Fill in the sign-up form with test data.
+    commands:
+      - command: hover-text
+        text: First name
+        description: first name input field
+        action: click
+      - command: type
+        text: Test
+      - command: hover-text
+        text: Last name
+        description: last name input field
+        action: click
+      - command: type
+        text: User
+      - command: hover-text
+        text: Email
+        description: email input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Password
+        description: password input field
+        action: click
+      - command: type
+        text: Password123
+  - prompt: Fill in the sign-up form with test data.
+    commands:
+      - command: hover-text
+        text: First name
+        description: first name input field
+        action: click
+      - command: type
+        text: Test
+      - command: hover-text
+        text: Last name
+        description: last name input field
+        action: click
+      - command: type
+        text: User
+      - command: hover-text
+        text: Email
+        description: email input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Password
+        description: password input field
+        action: click
+      - command: type
+        text: Password123
+  - prompt: Fill in the sign-up form with test data.
+    commands:
+      - command: hover-text
+        text: First name
+        description: first name input field
+        action: click
+      - command: type
+        text: Test
+      - command: hover-text
+        text: Last name
+        description: last name input field
+        action: click
+      - command: type
+        text: User
+      - command: hover-text
+        text: Email
+        description: email input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Password
+        description: password input field
+        action: click
+      - command: type
+        text: Password123
+  - prompt: Fill in the sign-up form with test data.
+    commands:
+      - command: hover-text
+        text: First name
+        description: first name input field
+        action: click
+      - command: type
+        text: Test
+      - command: hover-text
+        text: Last name
+        description: last name input field
+        action: click
+      - command: type
+        text: User
+      - command: hover-text
+        text: Email
+        description: email input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Password
+        description: password input field
+        action: click
+      - command: type
+        text: Password123
+  - prompt: Fill in the sign-up form with test data.
+    commands:
+      - command: hover-text
+        text: First name
+        description: first name input field
+        action: click
+      - command: type
+        text: Test
+      - command: hover-text
+        text: Last name
+        description: last name input field
+        action: click
+      - command: type
+        text: User
+      - command: hover-text
+        text: Email
+        description: email input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Password
+        description: password input field
+        action: click
+      - command: type
+        text: Password123
