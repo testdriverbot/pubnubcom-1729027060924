@@ -1,0 +1,16 @@
+version: 4.0.69
+steps:
+  - prompt: Focus the browser window.
+    commands: []
+  - prompt: Click on the "Developers" link in the header.
+    commands:
+      - command: hover-text
+        text: Developers
+        description: link in the header
+        action: click
+  - prompt: >-
+      Assert that the developer resources page loads.  # Use the content of the
+      file from the environment
+    commands:
+      - command: assert
+        expect: the developer resources page is loaded
